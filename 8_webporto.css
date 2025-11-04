@@ -304,12 +304,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 300px;
+    gap: 200px;
     position: fixed;
     right: 0;
     left: 0;
     border-bottom: 1px solid #e0e0e0;
-    width: 768px;
+    width: 400px;
     }
     .menu {
         display: none;
@@ -324,12 +324,12 @@
         display: block;
     }
     .hero{
-    width : 768px;
+    width : 400px;
     display: flex;
     flex-direction: row;
     justify-content:space-around ;
     padding-top: 200px; 
-    gap: 250px;
+    gap: 200px;
     background-color: white;
     }
     .hero-content p{
@@ -339,6 +339,189 @@
     .hero-content span{
     color: blueviolet;
     }
-
-
+    .hero-content button{
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 30px;
+    font-size: 10px;
+    box-shadow: 0 2px 4px black;
+    }
+    .hero-content button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: ease 0.5s;
+    border: 2px solid rgb(0, 132, 255);
+    }
+    .social-media{
+    margin-left: 48px;
+    }
+    .hero-image img{
+    width: 100px;
+    height: auto;
+    border-radius: 10%;
+    }
+    .social-media ul{
+    list-style: none;
+    }
+    .social-media ul li{
+    display: inline-block;
+    margin-right: 10px;
+    }
+    .social-media ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+    .social-media ul li a:hover{
+    text-decoration: none;
+    color: gray;
+    }
+    .about{
+    background-color: rgb(211, 211, 211);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    }
+    .about-me{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    }
+    .about-box1{
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 2px 4px black;
+    text-align: center;display: flex;
+    flex-direction: column;
+    }
+    .about-box2{
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0 2px 4px black;
+    text-align: center;display: flex;
+    flex-direction: column;
+    }
+    .about-box1 img{
+        width: 90px;
+        height: auto;
+    }
+    .about-box2 img{
+    width: 90px;
+    height: auto;
+    }
+    .about-box1:hover{ 
+    transition: ease 1s;
+    transform: rotateY(360deg) scale(1.1) translateY(-10px);
+    }
+    .about-box2:hover{
+    transition: ease 1s;
+    transform: rotateY(360deg) scale(1.1) translateY(-10px) ;
+    }
+    .about-content-title{
+    font-size: 9px;
+    font-weight: 700;
+    }
+    .about-content-judul{
+    font-size: 15px;
+    font-weight: 500;
+    }
+    .about-content-desc{
+    font-weight: 500;
+    font-size: 10px;
+    }
+    .about-content button{
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    width: 90px;
+    height: 50px;
+    box-shadow: 0 2px 3px black;
+    }
+    .about-content button:hover{
+    color: black;
+    background-color: rgb(2, 100, 2);
+    transition: ease 0.5s;
+    cursor: pointer;
+    }
+    .skill{
+    height: 100vh;
+    background-color: #919191;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .skill-me{
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    }
+    .skill-box{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px black;
+    }
+    .skill-box .tidur{
+    width: 50px;
+    height: 50px;;
+    }
+    .skill-box .makan{
+    margin: -5px;
+    width: 65px;
+    }
+    .skill-box .ml-1{
+    width: 50px;
+    }
+    .skill-box .ml-2{
+    width: 50px;
+    }
+    .skill-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    }
+    .skill-content-1{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 65px ;
+    }
+    .skill-content-2{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 45px;
+    }
+    .skill-content-3{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: -11px;
+    text-align: center;
+    }
+    .skill-content-4{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: -8px;
+    }
+    .skill-content-isi{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 8px;
+    }
 }
