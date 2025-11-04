@@ -299,177 +299,46 @@
         margin: 0;
         font-family: "Poppins", sans-serif;
     }.header{
-    width: 1090px;
     height: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 600px;
+    gap: 300px;
     position: fixed;
     right: 0;
     left: 0;
     border-bottom: 1px solid #e0e0e0;
+    width: 768px;
     }
-    .hero-content p{
-    margin: 20;
-    font-size: 50px;
-    }
-    .about{
-        width: 1090px;
-    }
-    .about-box1{
-    margin-left: 20px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    width: 110px;
-    height: 110px;
-    box-shadow: 0 4px 8px black;
-    text-align: center;display: flex;
-    flex-direction: column;
-    }.about-box2{
-    margin-left: 20px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    width: 110px;
-    height: 110px;
-    box-shadow: 0 4px 8px black;
-    text-align: center;display: flex;
-    flex-direction: column;
-}
-.about-box2 img{
-    width: 110px;
-    height: auto;
-}.about-box1 img{
-    width: 110px;
-    height: auto;
-}
-.about-content-title{
-    font-size: 7px;
-    font-weight: 700;
-}.about-content-judul{
-    font-size: 15px;
-    font-weight: 500;
-}.about-content-desc{
-    font-weight: 500;
-    font-size: 10px;
-}
-.about-box1:hover{
-    /* transform: translateY(-10px); */
-    transition: ease 0.5s;
-    transform: rotate(360deg);
-}.about-box2:hover{
-    /* transform: translateY(-10px); */
-    transition: ease 0.5s;
-    transform: rotate(360deg);
-}
     .menu {
         display: none;
-    }.menu-bars{
-        display: block;
-    }.title{
-        display: none;
-    }.title-responsive{
+    }
+    .menu-bars{
         display: block;
     }
-    .skill{
-    height: 100vh;
-    width: 1090px;
-    background-color: #919191;
+    .title{
+        display: none;
+    }
+    .title-responsive{
+        display: block;
+    }
+    .hero{
+    width : 768px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}.skill-me{
-    gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}.skill-box{
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
-    width: 150px;
-    height: 150px;
-    margin: 5px 0px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px black;
-}.skill-box .tidur{
-    width: 150px;
-    height: 150px;;
-}.skill-box .makan{
-    margin: -5px;
-    width: 165px;
-}.skill-box .ml-1{
-    width: 155px;
-}.skill-box .ml-2{
-    width: 150px;
-}.skill-content{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}.skill-content-1{
+    flex-direction: row;
+    justify-content:space-around ;
+    padding-top: 200px; 
+    gap: 250px;
+    background-color: white;
+    }
+    .hero-content p{
+    margin: 10px;
     font-size: 20px;
-    font-weight: 500;
-    margin-left: 230px ;
-}.skill-content-2{
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 140px;
-}.skill-content-3{
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 40px;
-}.skill-content-4{
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: -59px;
-}.skill-content-isi{
-    margin-top: 40px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 20px;
-    gap: 100px;
-}
-.works{
-    background-color: #4e4e4e;
-    height: 100vh;
-    width: 1090px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}.works-me{
-    gap: 320px;
-    margin-left: -150px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}.kerjaan:hover{
-    transform: scale(1.50);
-    transition: ease 1s;
-}.works-content{
-    display: grid; 
-    grid-template-columns: repeat(2,1fr);
-    margin-left: 100px;
-    margin-right: 100px;
-}.works-content-it{
-    width: 380px;
-    margin-left: 180px;
-}.works-content-isi{
-    margin-left: 10px ;
-    margin-right: 10px;
-    width: 400px;
-    height: 250px;
-    background-color: #e0e0e0;
-    text-align: center;
-    font-weight: 800;
-    border-radius: 40px;
-    font-size: 10px;
-}
-.contact{
-    width: 1090px;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-}
+    }
+    .hero-content span{
+    color: blueviolet;
+    }
+
+
 }
